@@ -45,3 +45,133 @@ let misty = document.getElementById('misty');
 
 
 
+let answerssubmitted = [];
+//#region  fluffy cow answers
+green.addEventListener('click', function(){
+    answerssubmitted[0] = 1;
+})
+emptyplate.addEventListener('click', function(){
+    answerssubmitted[1] = 1;
+})
+bread.addEventListener('click', function(){
+    answerssubmitted[2] = 1;
+})
+soda.addEventListener('click', function(){
+    answerssubmitted[3] = 1;
+})
+farm.addEventListener('click', function(){
+    answerssubmitted[4] = 1;
+})
+sunny.addEventListener('click', function(){
+    answerssubmitted[5] = 1;
+})
+//#endregion
+
+//#region   silly cow answers
+blue.addEventListener('click', function(){
+    answerssubmitted[0] = 2;
+})
+yellow.addEventListener('click', function(){
+    answerssubmitted[0] = 2;
+})
+cereal.addEventListener('click', function(){
+    aanswerssubmitted[1] = 2;
+})
+candy.addEventListener('click', function(){
+    answerssubmitted[2] = 2;
+})
+alcohol.addEventListener('click', function(){
+    answerssubmitted[3] = 2;
+})
+suburbs.addEventListener('click', function(){
+    answerssubmitted[4] = 2;
+})
+misty.addEventListener('click', function(){
+    answerssubmitted[5] = 2;
+})
+//#endregion
+
+//#region fancy cow answers
+purple.addEventListener('click', function(){
+    answerssubmitted[0] = 3;
+})
+coffee.addEventListener('click', function(){
+    answerssubmitted[1] = 3;
+})
+pasta.addEventListener('click', function(){
+    aanswerssubmitted[2] = 3;
+})
+starbucks.addEventListener('click', function(){
+    answerssubmitted[3] = 3;
+})
+city.addEventListener('click', function(){
+    answerssubmitted[4] = 3;
+})
+snowy.addEventListener('click', function(){
+    answerssubmitted[5] = 3;
+})
+//#endregion
+
+//#region strayberry cow answers
+pink.addEventListener('click', function(){
+    answerssubmitted[0] = 4;
+})
+pancakes.addEventListener('click', function(){
+    answerssubmitted[1] = 4;
+})
+fruit.addEventListener('click', function(){
+    aanswerssubmitted[2] = 4;
+})
+smoothie.addEventListener('click', function(){
+    answerssubmitted[3] = 4;
+})
+beach.addEventListener('click', function(){
+    answerssubmitted[4] = 4;
+})
+cloudy.addEventListener('click', function(){
+    answerssubmitted[5] = 4;
+})
+//#endregion
+//#region chocolate cow answers
+orange.addEventListener('click', function(){
+    answerssubmitted[0] = 5;
+})
+eggs.addEventListener('click', function(){
+    answerssubmitted[1] = 5;
+})
+veggies.addEventListener('click', function(){
+    aanswerssubmitted[2] = 5;
+})
+water.addEventListener('click', function(){
+    answerssubmitted[3] = 5;
+})
+snowtown.addEventListener('click', function(){
+    answerssubmitted[4] = 5;
+})
+rainy.addEventListener('click', function(){
+    answerssubmitted[5] = 5;
+})
+//#endregion
+//#region muscle cow answers
+black.addEventListener('click', function(){
+    answerssubmitted[0] = 6;
+})
+red.addEventListener('click', function(){
+    answerssubmitted[0] = 6;
+})
+protienshake.addEventListener('click', function(){
+    answerssubmitted[1] = 6;
+})
+meat.addEventListener('click', function(){
+    aanswerssubmitted[2] = 6;
+})
+energydrinks.addEventListener('click', function(){
+    answerssubmitted[3] = 6;
+})
+cabin.addEventListener('click', function(){
+    answerssubmitted[4] = 6;
+})
+storm.addEventListener('click', function(){
+    answerssubmitted[5] = 6;
+})
+//#endregion
