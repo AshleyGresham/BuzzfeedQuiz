@@ -1,3 +1,4 @@
+let images = document.querySelectorAll('.questions img');
 let question1 = document.getElementById('question1');
 let pink = document.getElementById('pink');
 let orange = document.getElementById('orange');
@@ -39,3 +40,8 @@ let sunny = document.getElementById('sunny');
 let cloudy = document.getElementById('cloudy');
 let storm = document.getElementById('storm');
 let snow = document.getElementById('snow');
+let rainy = document.getElementById('rainy');
+let misty = document.getElementById('misty');
+
+
+
