@@ -1,8 +1,10 @@
 /* General body styling */
 body {
     font-family: 'Oswald', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-image: url("https://media.istockphoto.com/id/1387701863/photo/wheat-field-and-blue-sky-with-sun-vertical-photo.jpg?s=612x612&w=0&k=20&c=cyJ5SrUoqAfsAAhCNkctQni7X0PFTjBj6Na9sqsZD5U=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000000;
     line-height: 1.6;
     padding: 20px;
 }
@@ -10,14 +12,16 @@ body {
 /* Title section styling */
 .title h1 {
     text-align: center;
-    color: #333;
+    font-size: 60px;
+    color: #000000;
 }
 
 /* Questions section styling */
 .questions {
-    background-color: #fff;
+    background-color: #d4e6d993;
     margin: 20px;
     padding: 20px;
+    text-align: center;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -27,10 +31,18 @@ body {
 }
 
 .questions img {
-    width: 100%; /* Make images responsive */
+    width: 100%; 
     height: auto;
     border-radius: 8px;
     margin-top: 10px;
+}
+.questions button {
+    background-color:#fbf2fbcb;
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15%;
 }
 
 /* Result section styling */
@@ -41,4 +53,89 @@ body {
     margin-top: 20px;
     border-radius: 8px;
     font-size: 1.2em;
+}
+.colorbuttons button{
+    border: 5px solid white;
+    margin-left: 20px;
+}
+
+#pink {
+    background-color: pink;
+}
+#red {
+    background-color: red;
+}
+#orange {
+    background-color: orange;
+}
+#yellow {
+    background-color: yellow;
+}
+#green {
+    background-color:green;
+}
+#blue {
+    background-color: blue;
+}
+#purple {
+    background-color: purple;
+}
+#black {
+    background-color: black;
+    color :white;
+}
+.breakfastpictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.breakfastpictures img {
+    height: 150px;
+    object-fit: cover;
+    width: 150px;
+}
+.foodpictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.foodpictures img {
+    height: 150px;
+    object-fit: cover;
+    width: 150px;
+}
+.drinkpictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.drinkpictures img {
+    height: 150px;
+    object-fit: cover;
+    width: 150px;
+}
+.livepictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.livepictures img {
+    height: 150px;
+    object-fit: cover;
+    width: 150px;
+}
+.weatherpictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.weatherpictures img {
+    height: 150px;
+    object-fit: cover;
+    width: 150px;
 }

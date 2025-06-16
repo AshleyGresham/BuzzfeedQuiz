@@ -1,23 +1,76 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>INT: Unit 4 Quiz Project</title>
+        <title>Cow Quiz</title>
         <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
         <link href="style.css" rel="stylesheet">
         <script defer src="script.js"></script>
     </head>
     <body>
         <div class="title">
-            <h1>Your Quiz Title Here!</h1>
+            <h1>What Kind of COW are You!</h1>
         </div>
         <div class="questions">
-            <h4>User Question #1</h4>
-            <img src="https://img.buzzfeed.com/buzzfeed-static/static/2021-06/24/16/asset/815a5287257c/anigif_sub-buzz-4360-1624553394-78_preview.gif?output-quality=auto&output-format=auto&downsize=360:*">
-            <h4>User Question #2</h4>
-            <img src="https://img.buzzfeed.com/buzzfeed-static/static/2018-11/19/17/asset/buzzfeed-prod-web-05/anigif_sub-buzz-18467-1542667455-1.gif">
+            <h2 id = "question1">What is your favorite color?</h2>
+            <div class = "colorbuttons">
+                <button id ="pink">Pink</button>
+                <button id = "orange">Orange</button>
+                <button id = "red">Red</button>
+                <button id ="yellow">Yellow</button>
+                <button id = "green">Green</button>
+                <button id = "blue">Blue</button>
+                <button id = "purple">Purple</button>
+                <button id = "black">Black</button>
+            </div>
+            <h2 id = "question2">What is your favorite breakfast?</h2>
+            <div class = "breakfastpictures">
+                <img id="protienshake" src ="https://pics.walgreens.com/prodimg/567362/900.jpg">
+                <img id="emptyplate" src= "https://media.istockphoto.com/id/1170315961/photo/white-plate-wooden-table-tablecloth-rustic-wooden-clean-copy-freepik-table-top-view-wallpaper.jpg?s=612x612&w=0&k=20&c=DHB3nUXj-OpIzWIN__QfyK--thApc9UIH-tDSzEGLWA=">
+                <img id ="coffee" src = "https://www.royalcupcoffee.com/sites/default/files/images/blog/AdobeStock_159183621update.jpg">
+                <img id = "eggs" src = "https://www.budgetbytes.com/wp-content/uploads/2024/09/Scrambled-Eggs-Close.jpg">
+                <img id="pancakes" src = "https://www.bhg.com/thmb/B1Mbx1q9AgIEJ8PbQpPq0QPs820=/4000x0/filters:no_upscale():strip_icc()/bhg-recipe-pancakes-waffles-pancakes-Hero-01-372c4cad318d4373b6288e993a60ca62.jpg">
+                <img id = "cereal"src = "https://www.foodandwine.com/thmb/lrAQsTSWHgjlyhSo-X_NPqzB5yM=/fit-in/1500x2667/filters:no_upscale():max_bytes(150000):strip_icc()/faw-west-elm-kaloh-stoneware-cereal-bowl-dillon-evans-04-bc179225ce5d42d9b9aebd061b903fc8.jpeg">
+            </div>
+
+            <h2 id = "question3">What is your favorite kind of food?</h2>
+            <div class = "foodpictures">
+                <img id ="bread" src ="https://metemgee.com/wp-content/uploads/2019/12/Guyanese_plait_bread.jpg">
+                <img id = "pasta" src= "https://s.lightorangebean.com/media/20240914160809/Spicy-Penne-Pasta_-done.png">
+                <img id = "fruit" src = "https://www.dreamfoodscaribe.com/wp-content/uploads/2023/07/types-of-fruits.webp">
+                <img id = "vegetables" src = "https://cdn.britannica.com/17/196817-159-9E487F15/vegetables.jpg">
+                <img id = "candy" src = "https://troychariot.org/wp-content/uploads/2019/10/IMG_5427.jpg">
+                <img id ="meat" src ="https://images.ricardocuisine.com/services/recipes/9045.jpg">
+            </div>
+
+            <h2 id="questions4">What is your favorite kind of drink?</h2>
+            <div class = "drinkpictures">
+                <img id="energydrinks"src ="https://www.foodworld-xl.com/media/cache/resolve/sylius_shop_product_large_thumbnail/product/1523/monster-energy-ultra-white-zero-sugar-12x-500ml_1.jpg">
+                <img id="water" src= "https://www.icemountainwater.com/sites/g/files/zmtnxh171/files/icemountain-hero-bottles-midwest_nice-large.jpg">
+                <img id="starbucks" src = "https://publish.purewow.net/wp-content/uploads/sites/2/2024/06/starbucks-summer-menu-2025-review_cat.jpg">
+                <img id="smoothie" src = "https://www.news-medical.net/image-handler/picture/2018/4/shutterstock_1By_stockcreations.jpg">
+                <img id="alcohol" src = "https://i.etsystatic.com/22231768/r/il/5136b6/2442651389/il_570xN.2442651389_k8tb.jpg">
+                <img id="soda" src ="https://www.fodors.com/wp-content/uploads/2019/03/HERO_Worlds_Best_Soda_Bundaberg_shutterstock_679079920.jpg">
+            </div>
+            <h2 id="question5">Where would you like to live?</h2>
+            <div class = "livepictures">
+                <img id = "city" src = "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2l0eXxlbnwwfHwwfHx8MA%3D%3D">
+                <img id="farm" src = "https://images.pexels.com/photos/235725/pexels-photo-235725.jpeg?cs=srgb&dl=pexels-pixabay-235725.jpg&fm=jpg">
+                <img id="snowtown" src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGkGs0XnvA7dtDYacMr6ShZGfgMjmtpvyO4Q&s">
+                <img id = "regulartown" src="https://t4.ftcdn.net/jpg/03/06/41/85/360_F_306418516_DhAEfaKPg6EIeCqx0zCy6QQa4Kuzzw93.jpg">
+                <img id = "cabin" src ="https://media.vrbo.com/lodging/91000000/90320000/90314100/90314099/fc27c910.jpg?impolicy=resizecrop&rw=575&rh=575&ra=fill">
+                <img id ="beachhouse" src = "https://cdn.houseplansservices.com/product/ockj9ahd2d2da1suld5q38goce/w560x373.jpg?v=11">
+            </div>
+            <h2 id="question6">What is your favorite kind of weather?</h2>
+            <div class="weatherpictures">
+                <img id ="sunny" src="https://images.photowall.com/products/44478/sunny-sky.jpg?h=699&q=85">
+                <img id = "cloudy" src="https://images.stockcake.com/public/7/7/c/77c295d4-30d4-439a-ac06-875bf13b00e3_large/dramatic-cloudy-sky-stockcake.jpg">
+                <img id= "storm" src="https://media.istockphoto.com/id/846134496/photo/rain-and-thunderstorm-in-dramatic-sky.jpg?s=612x612&w=0&k=20&c=9YOe_a2dmUbEUXFyN_wK8wocrPFvGsEnBvS0KueBohY=">
+                <img id = "snow" src="https://images.unsplash.com/photo-1491002052546-bf38f186af56?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c25vd2luZ3xlbnwwfHwwfHx8MA%3D%3D">
+            </div>
+    
         </div>
         <div class="result">
-            This is where the user will see their quiz result.
+            <p class= "results">Answer every question to see your result!</p>
         </div>
     </body>
 </html>
