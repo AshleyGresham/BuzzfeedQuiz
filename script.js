@@ -134,7 +134,7 @@ coffee.addEventListener('click', function(){
     handleSelection(this, 'breakfastpictures');
 })
 pasta.addEventListener('click', function(){
-    aanswerssubmitted[2] = 3;
+    answerssubmitted[2] = 3;
     handleSelection(this, 'foodpictures');
 })
 starbucks.addEventListener('click', function(){
@@ -161,7 +161,7 @@ pancakes.addEventListener('click', function(){
     handleSelection(this, 'breakfastpictures');
 })
 fruit.addEventListener('click', function(){
-    aanswerssubmitted[2] = 4;
+    answerssubmitted[2] = 4;
     handleSelection(this, 'foodpictures');
 })
 smoothie.addEventListener('click', function(){
@@ -187,7 +187,7 @@ eggs.addEventListener('click', function(){
     handleSelection(this, 'breakfastpictures');
 })
 vegetables.addEventListener('click', function(){
-    aanswerssubmitted[2] = 5;
+    answerssubmitted[2] = 5;
     handleSelection(this, 'foodpictures');
 })
 water.addEventListener('click', function(){
@@ -260,28 +260,28 @@ function countAnswers() {
     }
 }
 function determineCow() {
-    if (count1 >= 3) {
+    if (count1 >= 2) {
         resultsimage.src = "https://i.pinimg.com/736x/07/6d/8c/076d8cdf8d9587e18148736fa6843006.jpg";
-        resultstext.textContent = "You got Fluffy Cow!";
-    } else if (count2 >= 3) {
+        resultstext.textContent = "You got Fluffy Cow! Awwwww aren't you adorable.";
+    } else if (count2 >= 2) {
         resultsimage.src = "https://www.shutterstock.com/image-photo/closeup-brown-white-cow-standing-600nw-2379760687.jpg";
-        resultstext.textContent = "You got Silly Cow!";
-    } else if (count3 >= 3) {
+        resultstext.textContent = "You got Silly Cow! You're probably the class clown.";
+    } else if (count3 >= 2) {
         resultsimage.src = "https://64.media.tumblr.com/a5dfbc37843073bedc6757f20875780b/da376292d3c975ff-53/s640x960/a070d6ed479d01be761df554518913a6b811638e.jpg";
-        resultstext.textContent = "You got Fancy Cow!";
-    } else if (count4 >= 3) {
+        resultstext.textContent = "You got Fancy Cow! Oolala.";
+    } else if (count4 >= 2) {
         resultsimage.src = "https://i.pinimg.com/736x/40/14/fd/4014fdbdad7f03d2dd63a39b94fcbd18.jpg";
-        resultstext.textContent = "You got Strawberry Cow!";
-    } else if (count5 >= 3) {
+        resultstext.textContent = "You got Strawberry Cow! You are super super sweet.";
+    } else if (count5 >= 2) {
         resultsimage.src = "https://www.abelandcole.co.uk/Blog/images/default-source/acblogimages/Suppliers/brown-cow/325a4868.jpg?sfvrsn=d779a9cf_2";
-        resultstext.textContent = "You got Chocolate Cow!";
-    } else if (count6 >= 3) {
+        resultstext.textContent = "You got Chocolate Cow! Kind of basic but it's all good.";
+    } else if (count6 >= 2) {
         resultsimage.src = "https://as2.ftcdn.net/jpg/02/47/58/29/1000_F_247582946_tkNCuRODs6913HrFTUpWQxK2siVRKA14.jpg";
-        resultstext.textContent = "You got Muscle Cow!";
+        resultstext.textContent = "You got Muscle Cow! Oooooo look at those guns.";
     } else {
         // Default case if no clear winner
         resultsimage.src = "https://static.vecteezy.com/system/resources/thumbnails/049/722/449/small/a-funny-spotted-black-and-white-cow-wearing-dark-sunglasses-on-a-sunny-day-photo.jpg";
-        resultstext.textContent = "You got the Smart Cow!";
+        resultstext.textContent = "You got the Smart Cow! Definetly top of your class.";
     }
 }
 //#endregion

@@ -161,6 +161,6 @@ body img:hover{
 .selected {
     border: 5px solid blue !important;
 }
-.resulttext {
-    
+#resulttext {
+    font-size: 40px;
 }
