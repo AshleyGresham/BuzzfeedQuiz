@@ -47,16 +47,18 @@ body {
 
 /* Result section styling */
 .result {
-    background-color: #e2e2e2;
-    text-align: center;
+    background-color: #d4e6d993;
+    margin: 20px;
     padding: 20px;
-    margin-top: 20px;
+    text-align: center;
     border-radius: 8px;
-    font-size: 1.2em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
 .colorbuttons button{
     border: 5px solid white;
     margin-left: 20px;
+    cursor: pointer;
 }
 
 #pink {
@@ -144,4 +146,21 @@ body img{
 }
 body img:hover{
     cursor:pointer;
+}
+#submit {
+    background-color: #415dfccb;
+    margin-top: 3%;
+    width : 20%;
+    height: 70px;
+    color: white;
+}
+#resultsimage {
+    width:60%;
+    height: auto;
+}
+.selected {
+    border: 5px solid blue !important;
+}
+.resulttext {
+    
 }
